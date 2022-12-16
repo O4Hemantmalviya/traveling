@@ -1,0 +1,154 @@
+/* body{
+    overflow-x: hidden;
+} */
+.travellogo {
+  height: 50px;
+}
+
+.secondrow {
+  padding-top: 15px;
+  width: 80%;
+  margin: 1% auto 0;
+  background-color: aliceblue;
+  height: 110px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 575px) {
+  .secondrow {
+    height: 200px;
+    margin-left: auto auto auto;
+    padding-top: 10px;
+    margin-top: -3%;
+  }
+}
+.increment {
+  display: flex;
+}
+.data {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.searchheading {
+  font-size: 20px;
+  font-weight: 800;
+  color: black;
+}
+input {
+  border-radius: 10px;
+  border: 1px solid white;
+}
+
+.book {
+  background-color: transparent;
+  color: black;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.book:hover {
+  background-color: #e33058;
+  color: aliceblue;
+}
+
+.Searchyour {
+  margin-top: 10%;
+  margin-left: 15%;
+  font-weight: 800;
+  color: blue;
+  transform: translate(-10%, -100%);
+  font-size: 30px;
+  -webkit-text-stroke: 1px blue;
+  color: transparent;
+  background-image: linear-gradient(black, black);
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-position: -1200px 0;
+  animation: backcolor 3s linear infinite alternate;
+}
+@keyframes backcolor {
+  100% {
+    background-position: 0 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  .Searchyour {
+    margin-top: 30% !important;
+  }
+}
+.threerow {
+  margin-top: 2%;
+  margin-left: 1%;
+}
+.price {
+  background-color: aliceblue;
+  box-shadow: rgba(80, 80, 80, 0.2);
+  transition: 0.3s ease-in-out;
+  gap: 1rem;
+  padding: 2rem 0;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+.price:hover {
+  transform: translate(0.4rem) translate(-1rem);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.pricesection {
+  font-size: 15px;
+}
+.specialoffer {
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 20px;
+}
+.sploffer {
+  background-color: aliceblue;
+  box-shadow: rgba(80, 80, 80, 0.2);
+  transition: 0.3s ease-in-out;
+  gap: 1rem;
+  padding: 1rem 0;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
+.sploffer:hover {
+  transform: translate(0.4rem) translate(-1rem);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: black;
+}
+.days {
+  color: #e33058;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.imgsection {
+  width: 310px;
+  height: 200px;
+}
+.footer {
+  background-color: #080808;
+}
+.ftheading {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+.ft {
+  color: aliceblue;
+  text-align: center;
+  font-weight: 600;
+  padding-top: 5px;
+  padding-bottom: 8px;
+}
+.contact {
+  color: aliceblue;
+  text-align: center;
+}
+.mbody {
+  color: blue;
+}
